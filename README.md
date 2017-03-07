@@ -18,9 +18,14 @@ Optionally to display compile errors and warnings nicely, add the
 
 ## Install
 
-Install the scons builder with:
+Install the scons builder from the package sources:
 
     apm install build-scons
+
+Or install from git:
+
+    cd $HOME/atom/packages
+    git clone https://github.com/wendlers/atom-build-scons.git build-scons
 
 ## Usage
 
