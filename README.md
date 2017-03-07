@@ -3,7 +3,7 @@
 Uses the [atom-build](https://github.com/noseglid/atom-build) package to execute
 [scons](http://scons.org/) in the `Atom` editor.
 
-![screenshot](./doc/screen.png)
+![screenshot](https://raw.githubusercontent.com/wendlers/atom-build-scons/master/doc/screen.png)
 
 ## Prerequisites
 
