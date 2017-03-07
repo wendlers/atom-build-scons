@@ -1,0 +1,29 @@
+{
+  "name": "build-scons",
+  "version": "0.1.0",
+  "description": "Run Scons build scripts",
+  "repository": "https://github.com/wendlers/atom-build-scons",
+  "license": "MIT",
+  "engines": {
+    "atom": "^1.0.0"
+  },
+  "providedServices": {
+    "builder": {
+      "description": "Runs Scons",
+      "versions": {
+        "2.0.0": "provideBuilder"
+      }
+    }
+  },
+  "keywords": [
+    "build",
+    "compile",
+    "scons",
+    "sconstruct",
+    "productivity"
+  ],
+  "main": "lib/scons.js",
+  "dependencies": {
+      "ini": "1.3.4"
+  }
+}
