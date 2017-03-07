@@ -1,6 +1,6 @@
 {
   "name": "build-scons",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Run Scons build scripts",
   "repository": "https://github.com/wendlers/atom-build-scons",
   "license": "MIT",
@@ -24,6 +24,6 @@
   ],
   "main": "lib/scons.js",
   "dependencies": {
-      "ini": "1.3.4"
+    "ini": "1.3.4"
   }
 }
