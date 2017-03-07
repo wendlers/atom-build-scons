@@ -1,6 +1,6 @@
 {
   "name": "build-scons",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Run Scons build scripts",
   "repository": "https://github.com/wendlers/atom-build-scons",
   "license": "MIT",
