@@ -60,4 +60,4 @@ followd by varaible assignments of the form `variable=vale`. For example:
 
 ## Known Issues
 
-* A newly created `targets.ini` is not detected without reloading (e.g. `Shit+Ctrl+F5`). Howeverm changes to an existing `targets.ini` are detected and activated without reload.
+* A newly created `targets.ini` is not detected without reloading (e.g. `Shift+Ctrl+F5`). Howeverm changes to an existing `targets.ini` are detected and activated without reload.
