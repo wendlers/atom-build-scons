@@ -1,7 +1,7 @@
 # Scons build for Atom (via atom-build)
 
 Uses the [atom-build](https://github.com/noseglid/atom-build) package to execute
-[scons](http://scons.org/) in the `Atom` editor.
+[scons](http://scons.org/) in the [Atom](https://atom.io/) editor.
 
 ![screenshot](https://raw.githubusercontent.com/wendlers/atom-build-scons/master/doc/screen.png)
 
@@ -60,4 +60,4 @@ followd by varaible assignments of the form `variable=vale`. For example:
 
 ## Known Issues
 
-* A newly created `targets.ini` is not detected without reloading (e.g. Shit+Ctrl+F5). Howeverm changes to an existing `targets.ini` are detected and activated without reload.
+* A newly created `targets.ini` is not detected without reloading (e.g. `Shit+Ctrl+F5`). Howeverm changes to an existing `targets.ini` are detected and activated without reload.
