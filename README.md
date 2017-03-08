@@ -24,7 +24,7 @@ Install the scons builder from the package sources:
 
 Or install from git:
 
-    cd $HOME/atom/packages
+    cd $HOME/.atom/packages
     git clone https://github.com/wendlers/atom-build-scons.git build-scons
 
 ## Usage
@@ -47,7 +47,7 @@ The builder defines the following default targets:
 * `default` build with no variables set
 * `clean` build with `-c` flag
 
-You could provide per project targets by creating the file `target.ini`
+You could provide per project targets by creating the file `targets.ini`
 alongside the `sconstruct` script. Each target is defined by `[targetname]`,
 followd by varaible assignments of the form `variable=vale`. For example:
 
@@ -57,3 +57,7 @@ followd by varaible assignments of the form `variable=vale`. For example:
     [veryspecial]
     magignum=42
     foo=bar
+
+## Known Issues
+
+* A newly created `targets.ini` is not detected without reloading (e.g. Shit+Ctrl+F5). Howeverm changes to an existing `targets.ini` are detected and activated without reload.
