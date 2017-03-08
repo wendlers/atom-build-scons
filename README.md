@@ -38,7 +38,7 @@ the following:
 * `silent` Don't print commands
 * `jobs` Number of jobs to run in parallel
 * `separate build dir` Select for out of tree builds using a separate build dir.
-  'All the build artifacts will go to : `PROJ_DIR/../PROJ_NAME_build`'.
+  All the build artifacts will go to : `PROJ_DIR/../PROJ_NAME_build`'.
 
 The builder defines the following default targets:
 
