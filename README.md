@@ -49,14 +49,18 @@ The builder defines the following default targets:
 
 You could provide per project targets by creating the file `targets.ini`
 alongside the `sconstruct` script. Each target is defined by `[targetname]`,
-followd by varaible assignments of the form `variable=vale`. For example:
+followed by an entry specifying the SCons targets, and an entry giving the SCons
+parameters:
 
-    [mytarget]
-    foo=bar
+    [my target]
+    params="debug=1 release=0"
 
-    [veryspecial]
-    magignum=42
-    foo=bar
+    [my target clean]
+    targets=-c
+
+    [my special target]
+    targets="this that"
+    params="debug=1 release=0"
 
 ## Known Issues
 
