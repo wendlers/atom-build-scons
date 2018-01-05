@@ -26,16 +26,22 @@ Or install from git:
 
     cd $HOME/.atom/packages
     git clone https://github.com/wendlers/atom-build-scons.git build-scons
+    cd build-scons
+    apm install
 
 ## Usage
 
 See [atom-build](https://github.com/noseglid/atom-build) for available
 key-bindings.
 
+The scons builder is triggered by the presence of a ``sconstruct`` or
+``SConstruct`` file.
+
 In the settings dialog of the `build-scons` package it is possible to configure
 the following:
 
 * `silent` Don't print commands
+* `suppress progress messages` Suppress "Reading/Building" progress messages
 * `jobs` Number of jobs to run in parallel
 * `separate build dir` Select for out of tree builds using a separate build dir.
   All the build artifacts will go to : `PROJ_DIR/../PROJ_NAME_build`'.
